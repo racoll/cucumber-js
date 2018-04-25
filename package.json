@@ -1,0 +1,7 @@
+{
+    "name": "cucumber-test",
+    "scripts": {
+        "demo": "./node_modules/selenium-cucumber-js/index.js",
+        "cucumber": "./node_modules/selenium-cucumber-js/index.js -s ./step-definitions -p ./page-objects  -r ./reports"
+    }
+}

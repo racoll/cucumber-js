@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="searching-for-vote-cards-app;google-search-for-vote-cards-app" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/rcollin/Projects/testing_practice/cucumber-js/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;itunes vote cards app&quot;" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="2.684168655">
+        </testcase>
+        <testcase name="Then I should see some results" classname="searching-for-vote-cards-app;google-search-for-vote-cards-app" time="0.017288669">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-vote-cards-app;google-search-for-roger-federer" tests="2" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/rcollin/Projects/testing_practice/cucumber-js/features/google-search.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Google for &quot;roger federer&quot;" classname="searching-for-vote-cards-app;google-search-for-roger-federer" time="3.28315944">
+        </testcase>
+        <testcase name="Then I should see some relevant results" classname="searching-for-vote-cards-app;google-search-for-roger-federer" time="0.017252818">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-vote-cards-app;amazon-search-for-vote-cards-app" tests="1" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="/Users/rcollin/Projects/testing_practice/cucumber-js/features/shortlistr-category.feature">
+            </property>
+        </properties>
+        <testcase name="When I search Amazon for &quot;itunes vote cards app&quot;" classname="searching-for-vote-cards-app;amazon-search-for-vote-cards-app" time="2.827938055">
+        </testcase>
+    </testsuite>
+</testsuites>
